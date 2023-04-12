@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    background-color: #F9F7F7;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#top {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 74.375em;
+}
+
+
+header {
+    margin-top: 0.625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    color: #52734D;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #DDDDDD;
+    border-radius: 0.375em;
+}
+
+.text-header {
+    width: 43.75em;
+    padding-left: 2.059em;
+    border-radius:0.667em;
+    background-color: #EEEEEE;
+    color: #7d7d7d;
+}
+
+.all-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.collum {
+    width: 350px;
+    margin: 20px 20px;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    border-radius: 5px;
+
+}
+
+.collum h2 {
+    text-align: center;
+    font-size: 1.063rem;
+    background-color: #DDDDDD;
+    border-radius: 6px;
+    color: #52734D;
+}
+
+
+.photos img {
+    border-radius: 0.353em;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text p {
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    color: #52734D;
+    font-weight: 300;
+}
+
+.text p:hover {
+    background-color: #52734D;
+    color: #EEEEEE;
+    transition: all ease 0.5s;
+}
+
+.link {
+    align-items: center;
+    text-align: justify;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: 10px 10px 10px;
+}
+
+a:link {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #DDDDDD;
+    font-family: roboto;
+    color: #52734D;
+    font-weight: 300;
+    border-radius: 6px;
+
+}
+
+a:hover {
+    color: #EEEEEE;
+    background: #52734D;
+    transition: all ease 0.5s;
+    text-decoration: underline;
+    border: 2px solid;
+}
+
+@media (max-width: 768px) {
+    body {
+        color: white;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+        display: table-cell;
+        width: 50%;
+    }
+
+    .text-header {
+        width: 50%;
+        line-break: auto;
+        justify-content: center;
+        font-size: 1em;
+    }
+
+    .title h1 {
+        font-size: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
